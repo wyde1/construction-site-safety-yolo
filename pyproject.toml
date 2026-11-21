@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "construction-site-safety-yolo"
+version = "1.0.0"
+description = "Multi-class YOLO11 construction site PPE & machinery safety monitoring (25 classes) with compliance CLI and reproducible experiments."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["ppe_safety*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+markers = [
+    "real_model: integration tests that require the trained weights/best.pt checkpoint",
+]

@@ -1,0 +1,43 @@
+# Reference schema for the Roboflow Construction Site Safety v30 dataset (YOLOv11 format).
+# Download the actual images and labels via notebooks/construction_site_safety_experiments.ipynb
+# or directly from Roboflow Universe (CC BY 4.0).
+
+path: ../datasets/construction-site-safety-v30
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 25
+names:
+  - Excavator
+  - Gloves
+  - Hardhat
+  - Ladder
+  - Mask
+  - NO-Hardhat
+  - NO-Mask
+  - NO-Safety Vest
+  - Person
+  - SUV
+  - Safety Cone
+  - Safety Vest
+  - bus
+  - dump truck
+  - fire hydrant
+  - machinery
+  - mini-van
+  - sedan
+  - semi
+  - trailer
+  - truck
+  - truck and trailer
+  - van
+  - vehicle
+  - wheel loader
+
+roboflow:
+  workspace: roboflow-universe-projects
+  project: construction-site-safety
+  version: 30
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-universe-projects/construction-site-safety/dataset/30
