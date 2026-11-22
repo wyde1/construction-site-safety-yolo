@@ -3,7 +3,7 @@
 [![Python 3.10–3.12](https://img.shields.io/badge/Python-3.10%E2%80%933.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Ultralytics YOLO11](https://img.shields.io/badge/Ultralytics-YOLO11-0F62FE)](https://docs.ultralytics.com/)
 [![Dataset: CC BY 4.0](https://img.shields.io/badge/Dataset-CC%20BY%204.0-2E7D32)](https://universe.roboflow.com/roboflow-universe-projects/construction-site-safety/dataset/30)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](LICENSE)
 
 Multi-class **construction site PPE (Personal Protective Equipment) & machinery safety monitoring** built with **Ultralytics YOLO11**. This repository combines systematic model benchmarking (**YOLO11s** vs. **YOLO11m** vs. **custom outdoor augmentation**) on **25 safety & machinery classes** with a modular Python package and CLI that classifies detections into compliant PPE, safety violations (`NO-Hardhat`, `NO-Safety Vest`, `NO-Mask`), personnel, and heavy equipment.
 
@@ -210,4 +210,4 @@ pytest -v
 ## Dataset Attribution & License
 
 - **Dataset & Sample Frame**: [Construction Site Safety v30](https://universe.roboflow.com/roboflow-universe-projects/construction-site-safety/dataset/30) on Roboflow Universe (`roboflow-universe-projects/construction-site-safety`), licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**. This attribution explicitly covers the sample test image annotated in `docs/assets/sample_detection.jpg` and the evaluation plots derived from the dataset.
-- **Source Code**: Released under the [MIT License](LICENSE).
+- **Source Code**: Released under the [GNU Affero General Public License v3.0 (AGPL-3.0)](LICENSE) for full compatibility with the `ultralytics` dependency.

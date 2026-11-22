@@ -7,7 +7,7 @@ name = "construction-site-safety-yolo"
 version = "1.0.0"
 description = "Multi-class YOLO11 construction site PPE & machinery safety monitoring (25 classes) with compliance CLI and reproducible experiments."
 readme = "README.md"
-license = { text = "MIT" }
+license = { text = "AGPL-3.0-only" }
 requires-python = ">=3.10"
 
 [tool.setuptools.packages.find]
